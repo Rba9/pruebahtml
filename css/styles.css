@@ -1,0 +1,35 @@
+body, .jumbotron{
+   background-color: #3b573e;
+}
+.cor{
+  background-color: orange;
+}
+.with_border{
+  border: solid;
+
+
+}.grid-1 {
+  display: grid;
+      width: 100%;
+      margin: 0 auto;
+
+      grid-template-columns: 1fr;
+      grid-template-rows: 80px auto auto 80px;
+      grid-gap: 10px;
+
+      grid-template-areas:    "header"
+                            "main"
+                            "sidebar"
+                            "footer";
+}
+
+
+@media only screen and (min-width: 500px) {
+
+    .grid-1 {
+
+    }
+  
+
+
+}
